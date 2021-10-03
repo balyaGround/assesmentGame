@@ -1,0 +1,13 @@
+.card {
+  max-width: 25rem;
+  min-height: 27rem;
+  border-radius: 10% !important;
+  box-shadow: 0px 0px 10px 2px #046860;
+}
+
+.card img {
+  width: 25rem;
+  height: 27rem;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
