@@ -19,7 +19,7 @@ export default function Game() {
       <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mt-5 justify-content-evenly ms-0 me-0">
         {isLoading ? (
           <>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -27,7 +27,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -35,7 +35,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -43,7 +43,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -51,7 +51,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -59,7 +59,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -67,7 +67,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -75,7 +75,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -83,7 +83,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -91,7 +91,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -99,7 +99,7 @@ export default function Game() {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className=" col p-0">
               <div className="card">
                 <img src={loading} className="card-img-top" alt="..." />
                 <div className="card-body">
@@ -111,8 +111,8 @@ export default function Game() {
           </>
         ) : (
           games?.results?.map((results) => (
-            <div className="col">
-              <div className="card">
+            <div className=" col p-0">
+              <div className="card ">
                 <Link style={{ textDecoration: "none" }} to={`/detail/${results.id}`}>
                   <img src={results.background_image} className="card-img-top" alt="..." />
                 </Link>
