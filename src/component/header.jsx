@@ -6,7 +6,7 @@ const Header = () => {
       <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
           <Link to="/">
-            <a class="navbar-brand" style={{ marginLeft: "50rem" }}>
+            <a class="navbar-brand">
               <img src="https://www.kindpng.com/picc/m/275-2759715_logo-gaming-png-team-transparent-png.png" alt="" width="300" height="300" class="d-inline-block align-text-top" />
             </a>
           </Link>

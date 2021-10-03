@@ -11,7 +11,9 @@
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
 }
-
+.navbar-brand img {
+  margin-left: 50rem;
+}
 @media (max-width: 1024px) {
   .card {
     max-width: 13rem;
@@ -25,5 +27,9 @@
     height: 14rem;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+  }
+
+  .navbar-brand img {
+    margin-left: 25rem;
   }
 }

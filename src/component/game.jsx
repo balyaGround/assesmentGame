@@ -16,7 +16,7 @@ export default function Game() {
 
   return (
     <div>
-      <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mt-5 justify-content-evenly ms-0 me-0">
+      <div className="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4 g-4 mt-5 justify-content-evenly ms-0 me-0">
         {isLoading ? (
           <>
             <div className=" col p-0">
